@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Sem Conexão - AE Alojamento</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #232323;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+        h1 { color: #f44336; }
+        .card {
+            background: #333;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #006af5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>⚠️ Estás Offline</h1>
+        <p>Não foi possível contactar o servidor.</p>
+        <p>Verifica a tua ligação à internet e tenta novamente.</p>
+        <button onclick="window.location.reload()">Tentar Reconectar</button>
+    </div>
+</body>
+</html>
