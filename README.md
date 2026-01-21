@@ -76,11 +76,13 @@ graph LR
     C --> E["Guarda Anúncio (Estado: Inativo)"]
     D --> E
     E --> F["Exibe Pop-up com Dados de Pagamento"]
-
+```
 ---
 
-## Estrutura do Projecto
 
+## 📂 Estrutura do Projeto
+
+```text
 ├── ⚙️ pom.xml
 src/main/java/com/ae/alojamento
 ├── 🚀 Application.java                # Ponto de entrada (Main) e Data Loader (Admin)
@@ -115,3 +117,4 @@ src/main/java/com/ae/alojamento
 src/main/resources
 ├── ⚙️ application.properties          # Configurações de BD, Porta e Hibernate
 └── 📄 offline.html                    # Página de fallback (PWA)
+```
